@@ -1,6 +1,23 @@
 .textField:focus {
   outline: none;
 }
+.links a {
+  text-decoration: none;
+  color: #fff ;
+  font-weight: 600;
+}
+.links a:hover {
+  text-decoration: none;
+} 
+.active {
+  color: #64B5F6 !important;
+  font-weight: 500;
+}
+.listOfUsers a {
+  text-decoration: none !important;
+  color : #000;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
